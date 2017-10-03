@@ -36,6 +36,9 @@
         <configuration>
           <cveValidForHours>12</cveValidForHours>
           <failBuildOnCVSS>4</failBuildOnCVSS>
+          <suppressionFiles>
+            <suppressionFile>suppressions.xml</suppressionFile>
+          </suppressionFiles>
         </configuration>
         <executions>
           <execution>
